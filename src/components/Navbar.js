@@ -2,14 +2,8 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
-import {
-  AiFillStar,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { PiVideoCamera } from "react-icons/pi";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -64,17 +58,19 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="#about">
+              <Nav.Link
+                as={Link}
+                to="/home"
+                href="#about"
+                onClick={() => updateExpanded(false)}
+              >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link href="#works">
-                <PiVideoCamera
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Works
+                <PiVideoCamera style={{ marginBottom: "2px" }} /> Works
               </Nav.Link>
             </Nav.Item>
 
