@@ -15,7 +15,7 @@ function Projects() {
           title={work.title}
           description={work.description}
           imgPath={work.imgPath}
-          link={work.link}
+          videoId={work.videoId}
         />
       </Col>
     ));
@@ -24,7 +24,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Work <strong className="purple">Experience</strong>
+          Selected <strong className="purple">Works</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {workCards}

@@ -6,18 +6,12 @@ import { AiOutlineMail } from "react-icons/ai";
 
 function ContactUs() {
   return (
-    <Container fluid className="project-section" id="works">
+    <Container fluid id="works">
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          Connect <strong className="purple">Now</strong>
-        </h1>
         <Row>
-          <Col md={6} className="home-about-description">
-            <p className="home-about-body"><FaPhoneVolume />&nbsp;8169825375</p>
-          </Col>
-          <Col md={6} className="home-about-description">
-            <p className="home-about-body" style={{textAlign: 'end'}}><AiOutlineMail />&nbsp;twinabamra@gmail.com</p>
+          <Col md={12} className="home-about-description">
+            <p className="home-about-body"><FaPhoneVolume />&nbsp;8169825375<br/><AiOutlineMail />&nbsp;twinabamra@gmail.com</p>
           </Col>
         </Row>
       </Container>

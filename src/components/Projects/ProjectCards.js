@@ -7,13 +7,25 @@ function ProjectCards(props) {
   const opts = {
     height: "100%",
     width: "100%",
+    playerVars: {
+      controls: 1,
+      disablekb: 1,
+      listType: 'playlist'
+    },
   };
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img"></Card.Img>
       <Card.Body>
-        {/* <YouTube videoId="2g811Eo7K8U" opts={opts} /> */}
-        <Card.Title>{props.title}</Card.Title>
+        {props.videoId ? (
+          <YouTube
+            videoId={props.videoId}
+            opts={opts}
+            className="card-imahe-top"
+          />
+        ) : (
+          <Card.Img variant="top" src={props.imgPath} alt="card-img"></Card.Img>
+        )}
+        <Card.Title className="pt-1" style={{textAlign: 'start'}}><strong>{props.title}</strong></Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>

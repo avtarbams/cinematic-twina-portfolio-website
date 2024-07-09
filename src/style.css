@@ -321,7 +321,7 @@ button:focus {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  padding-top: 50px !important;
   padding-bottom: 20px !important;
   text-align: center;
 }
@@ -531,6 +531,12 @@ button:focus {
   padding-top: 10px !important;
 }
 
+.twina-image {
+  width: 250px!important;
+  height: 250px!important;
+  object-fit: cover!important;
+}
+
 /* --------- */
 /* About */
 /* --------- */
@@ -731,4 +737,17 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+@media (max-width: 767px) {
+
+  .twina-image {
+    width: 200px!important;
+    height: 200px!important;
+    object-fit: cover!important;
+  }
+
+  .home-header {
+    padding-top: 50px !important;
+  }
 }
