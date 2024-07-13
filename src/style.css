@@ -142,8 +142,9 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
-    font-size: 1.4rem !important;
+    padding: 1rem !important;
+    font-size: 1em!important;
+    font-weight: bold!important;
     background-color: #181a27 !important;
   }
   .navbar-nav .nav-item a::after {
@@ -194,7 +195,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #ffff;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -250,20 +251,14 @@ button:focus {
   height: 100%;
 }
 
-.home-header {
-  padding-top: 80px !important;
-}
-
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
+  padding-top: 25px;
 }
 
 .home-content {
-  padding: 4rem 0 0rem !important;
+  padding-top: 5rem!important;
   color: whitesmoke;
   text-align: left;
 }
@@ -274,8 +269,8 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 2.5em !important;
-  padding-left: 20px !important;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 .main-name {
@@ -321,15 +316,15 @@ button:focus {
 
 .home-about-description {
   color: white !important;
-  padding-top: 50px !important;
-  padding-bottom: 20px !important;
+  padding-top: 50px!important;
   text-align: center;
 }
 
 .home-about-body {
-  padding-top: 50px;
-  font-size: 1.2em !important;
-  text-align: left;
+  font-size: 1.2em;
+  padding: 25px 0px!important;
+  text-align: justify;
+  font-family: "Inter", sans-serif;
 }
 
 .home-about-social {
@@ -445,10 +440,7 @@ button:focus {
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding: 25px 25px;
   height: auto !important;
 }
 
@@ -739,15 +731,51 @@ button:focus {
   display: none !important;
 }
 
+.home-header {
+  align-content: center;
+}
+
+.typewriter-text {
+  text-align: start;
+  font-size: 0.7em;
+}
+
+.section-title {
+  font-size: 2em;
+}
+
+.contact-me {
+  font-size: 1.2em;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 25px;
+}
+
 @media (max-width: 767px) {
 
-  .twina-image {
-    width: 200px!important;
-    height: 200px!important;
-    object-fit: cover!important;
+  .heading-name {
+    font-size: 1.5em;
   }
 
   .home-header {
-    padding-top: 50px !important;
+    align-content: normal;
+    height: 100px;
   }
+
+  .typewriter-text {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+
+  .section-title {
+    font-size: 1.5em;
+  }
+
+  .home-about-body {
+    font-size: 1em;
+  }
+
+  .contact-me {
+    font-size: 1em;
+  }
+
 }

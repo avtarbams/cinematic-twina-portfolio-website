@@ -3,8 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
-import { PiVideoCamera } from "react-icons/pi";
+import { AiOutlineHome } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -31,8 +30,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <div className="img-fluid logo" alt="brand">
-            CinematicTwina
+          <div className="img-fluid nav-main-title" alt="brand">
+            Cinematographer Twina
           </div>
         </Navbar.Brand>
         <Navbar.Toggle

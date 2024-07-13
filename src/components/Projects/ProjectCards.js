@@ -10,7 +10,8 @@ function ProjectCards(props) {
     playerVars: {
       controls: 1,
       disablekb: 1,
-      listType: 'playlist'
+      listType: 'playlist',
+      rel: 0
     },
   };
   return (
@@ -26,9 +27,6 @@ function ProjectCards(props) {
           <Card.Img variant="top" src={props.imgPath} alt="card-img"></Card.Img>
         )}
         <Card.Title className="pt-1" style={{textAlign: 'start'}}><strong>{props.title}</strong></Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
         {props.link && (
           <Button variant="primary" href={props.link} target="_blank">
             Youtube Link

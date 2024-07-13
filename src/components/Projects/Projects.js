@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import works from "../../Assets/Projects/works.json";
 
 function Projects() {
@@ -20,12 +19,15 @@ function Projects() {
       </Col>
     ));
   return (
-    <Container fluid className="project-section" id="works">
-      <Particle />
+    <Container fluid className="home-about-section" id="about">
       <Container>
-        <h1 className="project-heading">
-          Selected <strong className="purple">Works</strong>
-        </h1>
+        <Row>
+          <Col className="home-about-description">
+            <h1 className="section-title">
+              SELECTED <span className="purple"> WORKS </span>
+            </h1>
+          </Col>
+        </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {workCards}
         </Row>

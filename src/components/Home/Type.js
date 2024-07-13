@@ -8,12 +8,17 @@ function Type() {
         strings: [
           "Sports leagues",
           "Reality shows",
-          "Events and award shows",
-          "Corporate Films and commercials",
+          "Adventure, food and travel shows",
+          "Production of sports tournaments",
+          "Events and Award shows",
+          "Corporate Films",
+          "Advertising Films",
+          "Documentaries",
+          "Pre-wedding films and photography",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 10,
+        deleteSpeed: 20,
         delay: 10,
       }}
     />
