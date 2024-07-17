@@ -15,11 +15,7 @@ function Home2() {
               certification from the prestigious&nbsp;
               <b className="purple">
                 Film and Television Institute of India (FTII), Pune
-              </b>
-              . Over the years, I have honed my skills across a
-              diverse range of projects, including TV shows, reality shows,
-              sports, adventure, music, food, corporate films, awards, and
-              events.
+              </b>.
               <br />
               <br />
               Over the years, I have had the privilege of filming a diverse

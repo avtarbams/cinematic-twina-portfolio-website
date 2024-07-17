@@ -9,7 +9,7 @@ function ContactUs() {
       <Container>
         <Row>
           <Col md={12} className="home-about-description">
-          <div className="contact-me">Please feel free to contact me to discuss any cinematography assignments. <br/><br/>
+          <div className="contact-me">Please feel free to contact me to discuss any cinematography and production assignments. <br/><br/>
           <strong>twinabamra@gmail.com</strong>
           <br/><br/>
           <strong>+91 8169825375</strong>
