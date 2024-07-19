@@ -16,15 +16,17 @@
     "react-icons": "^4.12.0",
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^5.7.1",
+    "react-photo-album": "^2.4.1",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "react-tsparticles": "^1.42.2",
     "react-youtube": "^10.1.0",
     "typewriter-effect": "^2.18.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^3.21.1"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object":"^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   },
   "scripts": {
     "start": "react-scripts start",

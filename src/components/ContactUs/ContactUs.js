@@ -11,7 +11,7 @@ function ContactUs() {
           <Col md={12} className="home-about-description">
           <div className="contact-me">Please feel free to contact me to discuss any cinematography and production assignments. <br/><br/>
           <strong>twinabamra@gmail.com</strong>
-          <br/><br/>
+          <br/>
           <strong>+91 8169825375</strong>
             </div>
           </Col>
