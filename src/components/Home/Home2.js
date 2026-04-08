@@ -11,8 +11,8 @@ function Home2() {
               ABOUT <span className="purple"> ME </span>
             </h1>
             <p className="home-about-body">
-              I am a passionate and experienced cinematographer with a
-              certification from the prestigious&nbsp;
+    I am a passionate and experienced cinematographer and photographer 
+              from prestigious&nbsp;
               <b className="purple">
                 Film and Television Institute of India (FTII), Pune
               </b>.
@@ -26,8 +26,8 @@ function Home2() {
               delectable food shows,captivating travel shows, as well as grand
               events and prestigious award ceremonies. Additionally, I have
               delved into the world of sports by producing and filming renowned
-              leagues, and have had the joy of documenting the intimacy of
-              pre-wedding films and exquisite wedding photography. Each
+              leagues, and have had the joy of documenting exquisite weddings through
+              pre wedding films and wedding photography. Each
               endeavour has enriched my artistic journey, allowing me to weave
               stories that resonate with audiences.
               <br />
