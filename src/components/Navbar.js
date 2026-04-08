@@ -31,7 +31,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <div className="img-fluid nav-main-title" alt="brand">
-            Cinematographer Twina
+            Cinematographer/Photographer
           </div>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -56,15 +56,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            // <Nav.Item>
-            //   <Nav.Link
-            //     as={Link}
-            //     to="/resume"
-            //     onClick={() => updateExpanded(false)}
-            //   >
-            //     <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-            //   </Nav.Link>
-            // </Nav.Item>
+            {/* <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
